@@ -1,0 +1,26 @@
+﻿# ---- Keil MDK-ARM 编译产物 ----
+MDK-ARM/*/
+*.uvguix.*
+*.lst
+*.o
+*.d
+*.axf
+*.hex
+*.map
+*.dep
+*.lnp
+*.htm
+*.build_log.htm
+
+# ---- 其它临时文件 ----
+*.bak
+*.log
+*.tmp
+Objects/
+Listings/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
