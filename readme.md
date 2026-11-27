@@ -1,3 +1,4 @@
-led_project1  led闪烁用hal_delay
-led_project2  led闪烁，不用hal_delay
-led_project3  led开关用按键中断控制
+led2_1 作业1按键控制led亮灭闪烁
+pwm2_2 作业2控制舵机，呼吸灯：TIM2 PSC取71，ARR取999，1ms触发一次中断；TIM3的PSC取71，ARR为19999。
+                            舵机 角度=(CRR-500)/2000*180;
+ADC2_3 作业3旋钮ADC转换
